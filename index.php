@@ -25,7 +25,7 @@
                 <div class="col-auto">
                     <label for="validationCustom01" class="form-label">Фамилия Имя Отчество:</label>
                     <input type="text" placeholder="ФИО" class="form-control rounded-pill" name="login" value="" />
-                    <div class="valid-feedback">Looks good!</div>
+
                 </div>
 
 
