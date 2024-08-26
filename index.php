@@ -4,27 +4,27 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZADANIE3</title>
+    <title>Task3</title>
     <link rel="stylesheet" href="main.css" />
 
 </head>
 
 <body>
-    <div class="osnova">
-        <div class="wrap1 lh-lg font-monospace">
+    <div>
+        <div>
 
 
 
 
-            <form action="register.php" method="POST" id="form" class="row g-3 needs-validation">
-                <h3 id="form" class="text-center">Форма</h3>
+            <form action="register.php" method="POST" id="form">
+                <h3 id="form">Форма</h3>
 
 
 
 
-                <div class="col-auto">
-                    <label for="validationCustom01" class="form-label">Фамилия Имя Отчество:</label>
-                    <input type="text" placeholder="ФИО" class="form-control rounded-pill" name="login" value="" />
+                <div>
+                    <label for="validationCustom01" >Фамилия Имя Отчество:</label>
+                    <input type="text" placeholder="ФИО" name="login" value="" />
 
                 </div>
 
@@ -32,13 +32,13 @@
 
 
 
-                <div class="col-auto">
-                    <label for="validationCustomUsername" class="form-label">Телефон:
+                <div>
+                    <label for="validationCustomUsername" >Телефон:
                     </label>
-                    <div class="input-group has-validation">
-                        <input type="text" class="form-control rounded-pill" placeholder="Введите ваш номер" name="tel"
+                    <div>
+                        <input type="text" placeholder="Введите ваш номер" name="tel"
                             id="validationCustomUsername" aria-describedby="inputGroupPrepend" />
-                        <div class="invalid-feedback"></div>
+                        <div></div>
                     </div>
                 </div>
 
@@ -46,13 +46,13 @@
 
 
 
-                <div class="col-auto">
-                    <label for="validationCustomUsername" class="form-label">E-mail:
+                <div>
+                    <label for="validationCustomUsername" >E-mail:
                     </label>
-                    <div class="input-group has-validation">
-                        <input type="text" class="form-control rounded-pill" placeholder="Введите ваш E-mail"
+                    <div>
+                        <input type="text" placeholder="Введите ваш E-mail"
                             name="email" id="validationCustomUsername" aria-describedby="inputGroupPrepend" />
-                        <div class="invalid-feedback"></div>
+                        <div></div>
                     </div>
                 </div>
 
@@ -60,10 +60,10 @@
 
 
 
-                <div class="col-auto">
+                <div>
                     <label>
                         Дата рождения:<br />
-                        <input class="form-control rounded-pill" placeholder="2004-07-14" type="date" name="date" />
+                        <input placeholder="2004-07-14" type="date" name="date" />
                     </label>
                 </div>
 
@@ -71,17 +71,17 @@
 
 
 
-                <div class="col-auto">
+                <div>
                     <p>Выберите ваш пол:<br /></p>
-                    <div class="form-check icheck-material-orange">
-                        <input class="form-check-input" type="radio" value="Женский" id="someRadioId1"
+                    <div>
+                        <input type="radio" value="Женский" id="someRadioId1"
                             name="someGroupName" />
-                        <label class="form-check-label" for="someRadioId1">Женский</label>
+                        <label for="someRadioId1">Женский</label>
                     </div>
-                    <div class="form-check icheck-material-orange">
-                        <input class="form-check-input" type="radio" value="Мужской" id="someRadioId2"
+                    <div>
+                        <input type="radio" value="Мужской" id="someRadioId2"
                             name="someGroupName" />
-                        <label class="form-check-label" for="someRadioId2">Мужской</label>
+                        <label for="someRadioId2">Мужской</label>
                     </div>
                 </div>
 
@@ -90,9 +90,9 @@
 
 
 
-                <div class="col-auto">
-                    <label for="validationCustom04" class="form-label">Любимый язык программирования</label>
-                    <select class="form-select rounded-pill" id="validationCustom04" multiple name="language[]">
+                <div>
+                    <label for="validationCustom04" >Любимый язык программирования</label>
+                    <select id="validationCustom04" multiple name="language[]">
                         <option selected="" disabled="" value="">Выберете</option>
                         <option value="1">Pascal</option>
                         <option value=" 2">C</option>
@@ -106,17 +106,17 @@
                         <option value=" 10">Prolog</option>
                         <option value=" 11">Scala</option>
                     </select>
-                    <div class=" invalid-feedback">
+                    <div>
                     </div>
                 </div>
 
 
 
 
-                <div class="col-auto">
+                <div>
                     <label>
                         Биография:<br />
-                        <textarea class="form-control rounded-pill" placeholder="Напишите свою биографию"
+                        <textarea placeholder="Напишите свою биографию"
                             name="bio"></textarea>
                     </label>
                 </div>
@@ -125,15 +125,15 @@
 
 
 
-                <div class="col-auto">
+                <div>
                     С контрактом:
-                    <div class="form-check icheck-material-orange">
-                        <input class="form-check-input" type="checkbox" value="Ознакомлен" id="invalidCheck"
+                    <div>
+                        <input type="checkbox" value="Ознакомлен" id="invalidCheck"
                             name="checkt" />
-                        <label class="form-check-label" for="invalidCheck">
+                        <label for="invalidCheck">
                             Ознакомлен (а)
                         </label>
-                        <div class="invalid-feedback"></div>
+                        <div></div>
                     </div>
                 </div>
 
@@ -141,14 +141,14 @@
 
 
 
-                <div class="col-auto">
-                    <button class="custom-btn btn-1">Сохранить</button>
+                <div>
+                    <button>Сохранить</button>
                 </div>
             </form>
         </div>
 
-        <ul class="list-unstyled-sm">
-            <h5 id="links" class="text-center">Пункты выполненых скриншотов задания-3</h5>
+        <ul>
+            <h5 id="links">Пункты выполненых скриншотов задания-3</h5>
 
             <li>
                 <a>Подключение к общей базе данных;</a>
